@@ -110,7 +110,7 @@ natfrp-service remote-kdf <明文密码>
 | update_channel     | `String`  | `current` | 更新通道，可选值为 `lts`，`current`，`beta`，`edge`                    |
 | frpc_log_level     | `String`  | `info`    | 配置 frpc 日志等级，可选值为 `trace`，`debug`，`info`，`warn`，`error` |
 | frpc_force_tls     | `Boolean` | `false`   | 强制启用 frpc TLS 连接                                                 |
-| frpc_standard_tls  | `Boolean` | `false`   | 强制启用 frpc 标准 TLS 连接                                            |
+| frpc_standard_tls  | `Boolean` | `true`   | 强制启用 frpc 标准 TLS 连接                                            |
 | frpc_enable_stats  | `Boolean` | `true`    | 将 frpc 统计信息回报到启动器，用于 Web UI 展示                         |
 
 ### API 连接性保障 {#config-api}
